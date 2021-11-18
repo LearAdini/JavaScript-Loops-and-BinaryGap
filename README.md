@@ -36,7 +36,7 @@ alert(getAnswer(parseInt(x)));
 ```
 
 ## Are We There Yet ?
-> In this ex I need to display the message 'Are we there yet ?' until user input is yes or yeah.
+> In this exercise I need to display the message 'Are we there yet ?' until user input is yes or yeah.
 
 ● **script.js:**
 ```
@@ -69,8 +69,8 @@ var y = prompt('Are we there yet ?');
 thereYet(y);
 ```
 
-## Get The Longest Binary Gap of a Certain  Value
-> In this ex I need to find the longest binary gap of a given number,
+## Get The Longest Binary Gap of a Certain Value
+> In this exercise I need to find the longest binary gap of a given number,
 > 
 > Finding the binary gap meaning I need to find the most zero values between two 1's and return the longest binary gap of a certain value.
 > 
@@ -95,6 +95,6 @@ function binGap(num)
 
 ● **index.html:**
 ```
-var z = prompt('Enter a number and get his binary gap');
+var z = prompt('Enter a number and get its binary gap');
 alert(binGap(parseInt(z)));
 ```
