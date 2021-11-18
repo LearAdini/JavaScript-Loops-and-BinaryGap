@@ -85,9 +85,11 @@ function binGap(num)
   
     const binNum = num.toString(2);      // toString(2) converts the number to binary format, when used on a number return the binary equivalent of the numeric value.
   
-    const array = binNum.split('1').map((binGap, index, binArr) => { // split the binary string we obtained using 1 creating an array of empty strings.iterate through                                                                      //the array with .map() and subject each item to a condition.
+    const array = binNum.split('1').map((binGap, index, binArr) => { // split the binary string we obtained using 1 creating an array of empty strings.iterate through 
+                                                                    //the array with .map() and subject each item to a condition.
     
-   return binArr[index + 1] != undefined ? binGap.length : 0; }); //return length of empty string or zeros if the value at the next index (index + 1) within the array                                                                   //is not undefined. if the value of the next index is undefined return 0.
+   return binArr[index + 1] != undefined ? binGap.length : 0; }); //return length of empty string or zeros if the value at the next index (index + 1) within the array 
+                                                                 //is not undefined. if the value of the next index is undefined return 0.
      
     return Math.max.apply(Math, array);    // return the number of the longest binary gap. as if user input was 1040 the longest binary gap in 1040 is 5, so return 5.
   }
