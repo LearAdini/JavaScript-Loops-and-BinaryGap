@@ -45,7 +45,7 @@ function thereYet(y)
     {
     alert('yayy'); 
     }
-    else //if not return 'are we there yet ?' until input is yes/yeah
+    else                             //if not return 'are we there yet ?' until input is yes/yeah
     { 
         while(true)
         {
@@ -70,8 +70,11 @@ thereYet(y);
 
 ## Get The Longest Binary Gap of a Certain  Value
 > In this ex I need to find the longest binary gap of a given number,
+> 
 > Finding the binary gap meaning I need to find the most zero values between two 1's and return the longest binary gap of a certain value.
+> 
 > For example, 1041 in binary is 10000010001. the "gap" is the zero values between the two 1's. count the longest "gap" between the 1's and its 5.
+> 
 
 ● **script.js:**
 ```
