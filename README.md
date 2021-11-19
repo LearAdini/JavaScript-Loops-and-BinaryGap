@@ -14,15 +14,18 @@
      var prime = [];
      
  for (i =2; i <= x; ++i)
-   {
+ {
    if(!number [i])   
-      { 
-       prime.push(i);       
-       for (j = i << 1; j <= x; j += i)
-       {number[j] = true;}                                 
-      }       
-   }
-   
+     { 
+       prime.push(i);   
+       
+        for (j = i << 1; j <= x; j += i)
+        {
+        number[j] = true;
+        }                                 
+     }    
+ }   
+  
  return prime;
 }
 ```
