@@ -1,5 +1,5 @@
 # Loops & BinaryGap
-![jsHW](https://user-images.githubusercontent.com/80118008/142408257-30804650-3a60-450c-b0b2-9dfa0b0a000c.gif)
+![javaScriptHw](https://user-images.githubusercontent.com/80118008/142606771-56fe7a71-58f4-4965-b73d-3fc9ed316b66.gif)
 
 
 ## Get All Prime Numbers from 0 to x
