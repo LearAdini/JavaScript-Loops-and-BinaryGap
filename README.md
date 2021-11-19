@@ -46,7 +46,7 @@ function thereYet(y)
   if (y === 'yes' || y === 'yeah')  // if input is yes or yeah alert yayy
   {alert('yayy');} 
   
-  else       //if not return 'are we there yet ?' until input is yes/yeah
+  else       // if not return 'are we there yet ?' until input is yes/yeah
   {
      while(true)
       {
