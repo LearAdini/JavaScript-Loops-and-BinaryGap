@@ -52,7 +52,7 @@ function thereYet(y)
         {
         var j =   prompt('are we there yet ?');  
 
-         if (j === "yes" || j === 'yeah')
+         if (j === 'yes' || j === 'yeah')
          {
              alert('yayy');
              break;
