@@ -6,7 +6,7 @@
 ● **script.js:**
 ```
  function getAnswer(x)
- {
+{
     if(x !== parseInt(x)) {return 'numbers only'}    
     
     var number = [];
@@ -14,19 +14,17 @@
      var prime = [];
      
  for (i =2; i <= x; ++i)
- {
-
+   {
    if(!number [i])   
-   { 
-       prime.push(i);
-       
+      { 
+       prime.push(i);       
        for (j = i << 1; j <= x; j += i)
        {number[j] = true;}                                 
-   }  
+      }       
+   }
    
- }
  return prime;
- }
+}
 ```
 
 ● **index.html:**
@@ -42,24 +40,22 @@ alert(getAnswer(parseInt(x)));
 ```
 function thereYet(y)
 {
-    if (y === 'yes' || y === 'yeah')  // if input is yes or yeah alert yayy
-    {
-    alert('yayy'); 
-    }
-    else       //if not return 'are we there yet ?' until input is yes/yeah
-    { 
-        while(true)
-        {
+  if (y === 'yes' || y === 'yeah')  // if input is yes or yeah alert yayy
+  {alert('yayy');} 
+  
+  else       //if not return 'are we there yet ?' until input is yes/yeah
+  {
+     while(true)
+      {
         var j = prompt('are we there yet ?');  
 
          if (j === 'yes' || j === 'yeah')
          {
              alert('yayy');
              break;
-         }  
-         
-        }   
-    }
+         }         
+      }   
+   }  
 }
 ```
 
