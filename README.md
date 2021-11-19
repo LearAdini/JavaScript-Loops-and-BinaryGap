@@ -50,7 +50,7 @@ function thereYet(y)
     { 
         while(true)
         {
-        var j =   prompt('are we there yet ?');  
+        var j = prompt('are we there yet ?');  
 
          if (j === 'yes' || j === 'yeah')
          {
